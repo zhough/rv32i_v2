@@ -1,0 +1,1271 @@
+auipc sp, 1081344
+addi sp, sp, 48
+jal ra, 1440
+jal ra, 1332
+jal zero, 0
+addi sp, sp, 4080
+sw ra, 12(sp)
+sw s0, 8(sp)
+addi s0, sp, 16
+lui a5, -2145386496
+lw a5, 0(a5)
+addi a0, a5, 0
+lw ra, 12(sp)
+lw s0, 8(sp)
+addi sp, sp, 16
+jalr zero, 0(ra)
+addi sp, sp, 4080
+sw ra, 12(sp)
+sw s0, 8(sp)
+addi s0, sp, 16
+lui a5, -2145386496
+addi a5, a5, 4
+lw a5, 0(a5)
+addi a0, a5, 0
+lw ra, 12(sp)
+lw s0, 8(sp)
+addi sp, sp, 16
+jalr zero, 0(ra)
+addi sp, sp, 4048
+sw ra, 44(sp)
+sw s0, 40(sp)
+addi s0, sp, 48
+sw a0, 4060(s0)
+sw zero, 4076(s0)
+sw zero, 4072(s0)
+jal zero, 88
+lw a5, 4060(s0)
+addi a1, zero, 10
+addi a0, a5, 0
+jal ra, 732
+addi a5, a0, 0
+sw a5, 4068(s0)
+lw a5, 4072(s0)
+lw a4, 4068(s0)
+sll a5, a4, a5
+lw a4, 4076(s0)
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a5, 4060(s0)
+addi a1, zero, 10
+addi a0, a5, 0
+jal ra, 612
+addi a5, a0, 0
+sw a5, 4060(s0)
+lw a5, 4072(s0)
+addi a5, a5, 4
+sw a5, 4072(s0)
+lw a5, 4060(s0)
+bne a5, zero, 4008
+lw a5, 4076(s0)
+addi a0, a5, 0
+lw ra, 44(sp)
+lw s0, 40(sp)
+addi sp, sp, 48
+jalr zero, 0(ra)
+addi sp, sp, 4064
+sw ra, 28(sp)
+sw s0, 24(sp)
+addi s0, sp, 32
+lui a5, -2146435072
+lw a5, 0(a5)
+addi a0, a5, 0
+jal ra, 3920
+sw a0, 4076(s0)
+lui a5, -2145386496
+addi a5, a5, 32
+lw a4, 4076(s0)
+slli a4, a4, 24
+sw a4, 0(a5)
+addi zero, zero, 0
+lw ra, 28(sp)
+lw s0, 24(sp)
+addi sp, sp, 32
+jalr zero, 0(ra)
+addi sp, sp, 4048
+sw ra, 44(sp)
+sw s0, 40(sp)
+addi s0, sp, 48
+sw a0, 4060(s0)
+lw a0, 4060(s0)
+jal ra, 3848
+addi a4, a0, 0
+lui a5, 16777216
+addi a5, a5, 4095
+and a5, a4, a5
+sw a5, 4076(s0)
+lui a5, -2145386496
+addi a5, a5, 32
+lw a3, 0(a5)
+lui a5, -2145386496
+addi a5, a5, 32
+lw a4, 4076(s0)
+or a4, a3, a4
+sw a4, 0(a5)
+addi zero, zero, 0
+lw ra, 44(sp)
+lw s0, 40(sp)
+addi sp, sp, 48
+jalr zero, 0(ra)
+addi sp, sp, 4064
+sw ra, 28(sp)
+sw s0, 24(sp)
+addi s0, sp, 32
+sw a0, 4076(s0)
+lui a5, -2145386496
+addi a5, a5, 64
+lw a4, 4076(s0)
+sw a4, 0(a5)
+addi zero, zero, 0
+lw ra, 28(sp)
+lw s0, 24(sp)
+addi sp, sp, 32
+jalr zero, 0(ra)
+addi sp, sp, 4064
+sw ra, 28(sp)
+sw s0, 24(sp)
+addi s0, sp, 32
+sw zero, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 16777216
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 131072
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 4096
+addi a5, a5, 2048
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a5, 4076(s0)
+ori a5, a5, 1024
+sw a5, 4076(s0)
+lw a5, 4076(s0)
+ori a5, a5, 8
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 4096
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 2097152
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a0, 4076(s0)
+jal ra, 3908
+addi zero, zero, 0
+lw ra, 28(sp)
+lw s0, 24(sp)
+addi sp, sp, 32
+jalr zero, 0(ra)
+addi sp, sp, 4064
+sw ra, 28(sp)
+sw s0, 24(sp)
+addi s0, sp, 32
+sw zero, 4076(s0)
+lw a5, 4076(s0)
+ori a5, a5, 32
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 4096
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 524288
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 67108864
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a5, 4076(s0)
+ori a5, a5, 4
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 4096
+addi a5, a5, 2048
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 1048576
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+lui a5, 536870912
+or a5, a4, a5
+sw a5, 4076(s0)
+lw a0, 4076(s0)
+jal ra, 3736
+addi zero, zero, 0
+lw ra, 28(sp)
+lw s0, 24(sp)
+addi sp, sp, 32
+jalr zero, 0(ra)
+addi sp, sp, 4064
+sw ra, 28(sp)
+sw s0, 24(sp)
+addi s0, sp, 32
+sw zero, 4076(s0)
+jal zero, 32
+lui a5, -2145386496
+addi a5, a5, 80
+lui a4, -2147483648
+sw a4, 0(a5)
+lw a5, 4076(s0)
+addi a5, a5, 1
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+addi a5, zero, 9
+bge a5, a4, 4060
+addi zero, zero, 0
+addi zero, zero, 0
+lw ra, 28(sp)
+lw s0, 24(sp)
+addi sp, sp, 32
+jalr zero, 0(ra)
+addi sp, sp, 4064
+sw ra, 28(sp)
+sw s0, 24(sp)
+addi s0, sp, 32
+sw zero, 4076(s0)
+jal zero, 32
+lui a5, -2145386496
+addi a5, a5, 80
+addi a4, zero, 4095
+sw a4, 0(a5)
+lw a5, 4076(s0)
+addi a5, a5, 1
+sw a5, 4076(s0)
+lw a4, 4076(s0)
+addi a5, zero, 9
+bge a5, a4, 4060
+addi zero, zero, 0
+addi zero, zero, 0
+lw ra, 28(sp)
+lw s0, 24(sp)
+addi sp, sp, 32
+jalr zero, 0(ra)
+addi sp, sp, 4080
+sw ra, 12(sp)
+sw s0, 8(sp)
+addi s0, sp, 16
+lui a5, -2145386496
+addi a5, a5, 80
+lw a5, 0(a5)
+addi a0, a5, 0
+lw ra, 12(sp)
+lw s0, 8(sp)
+addi sp, sp, 16
+jalr zero, 0(ra)
+addi sp, sp, 4080
+sw ra, 12(sp)
+sw s0, 8(sp)
+addi s0, sp, 16
+jal ra, 3944
+jal ra, 4028
+addi a5, a0, 0
+addi a0, a5, 0
+jal ra, 3356
+jal ra, 3664
+addi t6, zero, 0
+addi zero, zero, 0
+lw ra, 12(sp)
+lw s0, 8(sp)
+addi sp, sp, 16
+jalr zero, 0(ra)
+addi sp, sp, 4080
+sw ra, 12(sp)
+sw s0, 8(sp)
+addi s0, sp, 16
+jal ra, 3880
+jal ra, 3964
+addi a5, a0, 0
+addi a0, a5, 0
+jal ra, 3292
+jal ra, 3444
+addi t6, zero, 1
+addi zero, zero, 0
+lw ra, 12(sp)
+lw s0, 8(sp)
+addi sp, sp, 16
+jalr zero, 0(ra)
+addi sp, sp, 4048
+sw ra, 44(sp)
+sw s0, 40(sp)
+sw s1, 36(sp)
+addi s0, sp, 48
+sw a0, 4060(s0)
+sw zero, 4076(s0)
+sw zero, 4072(s0)
+jal zero, 100
+lw a4, 4072(s0)
+addi a5, a4, 0
+slli a5, a5, 1
+add a5, a5, a4
+slli a5, a5, 2
+add s1, a5, a4
+lw a5, 4072(s0)
+addi a1, zero, 7
+addi a0, a5, 0
+jal ra, 3792
+addi a5, a0, 0
+add s1, s1, a5
+lw a5, 4072(s0)
+addi a1, zero, 4093
+addi a0, a5, 0
+jal ra, 3636
+addi a5, a0, 0
+add a5, s1, a5
+lw a4, 4076(s0)
+add a5, a4, a5
+sw a5, 4076(s0)
+lw a5, 4072(s0)
+addi a5, a5, 1
+sw a5, 4072(s0)
+lw a4, 4072(s0)
+lw a5, 4060(s0)
+blt a4, a5, 3992
+lw a5, 4076(s0)
+addi a0, a5, 0
+lw ra, 44(sp)
+lw s0, 40(sp)
+lw s1, 36(sp)
+addi sp, sp, 48
+jalr zero, 0(ra)
+addi sp, sp, 4064
+sw ra, 28(sp)
+sw s0, 24(sp)
+addi s0, sp, 32
+jal ra, 2996
+jal ra, 3552
+lui a5, 98304
+addi a5, a5, 1696
+sw a5, 4076(s0)
+lw a0, 4076(s0)
+jal ra, 3884
+sw a0, 4072(s0)
+lw a4, 4072(s0)
+lui a5, -1091477504
+addi a5, a5, 1392
+beq a4, a5, 16
+jal ra, 3732
+addi a5, zero, 0
+jal zero, 12
+jal ra, 3784
+addi a5, zero, 0
+addi a0, a5, 0
+lw ra, 28(sp)
+lw s0, 24(sp)
+addi sp, sp, 32
+jalr zero, 0(ra)
+auipc t1, 1048576
+addi t1, t1, 2656
+sw ra, 24(t1)
+jal ra, 164
+jal ra, 388
+jal ra, 844
+jal ra, 1128
+jal ra, 660
+jal ra, 464
+jal ra, 1200
+jal ra, 1372
+jal ra, 1536
+jal ra, 1708
+jal ra, 1892
+jal ra, 1948
+jal ra, 908
+jal ra, 264
+jal ra, 536
+jal ra, 708
+jal ra, 1000
+jal ra, 1244
+jal ra, 1416
+jal ra, 1584
+jal ra, 1772
+jal ra, 2068
+jal ra, 1980
+jal ra, 2384
+jal ra, 2516
+jal ra, 2136
+jal ra, 2212
+jal ra, 2296
+jal ra, 2608
+jal ra, 2684
+jal ra, 2764
+jal ra, 2836
+jal ra, 2908
+jal ra, 2980
+jal ra, 3052
+jal ra, 3124
+jal ra, 3200
+auipc t1, 1048576
+addi t1, t1, 2496
+lw ra, 24(t1)
+jalr zero, 0(ra)
+lui t0, -2147483648
+addi t0, t0, 4095
+addi t1, zero, 1
+add t2, t0, t1
+lui t3, -2147483648
+bne t2, t3, 108
+addi t0, zero, 4095
+addi t1, zero, 1
+add t2, t0, t1
+bne t2, zero, 92
+lui t0, 305418240
+addi t0, t0, 1656
+lui t1, -2023407616
+addi t1, t1, 801
+add t2, t0, t1
+lui t3, -1717985280
+addi t3, t3, 2457
+bne t2, t3, 60
+lui t3, -1717985280
+addi t3, t3, 2457
+lui t4, -1717985280
+addi t4, t4, 2457
+add t5, t3, t4
+lui t6, 858992640
+addi t6, t6, 818
+bne t5, t6, 28
+auipc t0, 1048576
+addi t0, t0, 2368
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1048576
+addi t0, t0, 2348
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 0
+addi t1, t0, 123
+addi t2, zero, 123
+bne t1, t2, 40
+addi t0, zero, 4095
+addi t1, t0, 1
+bne t1, zero, 28
+auipc t0, 1048576
+addi t0, t0, 2292
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1048576
+addi t0, t0, 2272
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, -2147483648
+addi t0, t0, 4095
+lui t1, -2147483648
+addi t1, t1, 4095
+sub t2, t0, t1
+bne t2, zero, 48
+addi t0, zero, 0
+addi t1, zero, 4095
+sub t2, t0, t1
+addi t3, zero, 1
+bne t2, t3, 28
+auipc t0, 1048576
+addi t0, t0, 2200
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1048576
+addi t0, t0, 2180
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, -1431654400
+addi t0, t0, 2730
+lui t1, 1431654400
+addi t1, t1, 1365
+and t2, t0, t1
+bne t2, zero, 64
+addi t0, zero, 4095
+addi t1, zero, 0
+and t2, t0, t1
+bne t2, zero, 48
+lui t0, 305418240
+addi t0, t0, 1656
+addi t1, zero, 4095
+and t2, t0, t1
+bne t2, t0, 28
+auipc t0, 1048576
+addi t0, t0, 2092
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1048576
+addi t0, t0, 2072
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 4095
+andi t1, t0, 1807
+addi t2, zero, 1807
+bne t1, t2, 48
+lui t0, 305442816
+addi t0, t0, 3021
+andi t1, t0, 1483
+addi t2, zero, 457
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 2008
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1988
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, -1431654400
+addi t0, t0, 2730
+lui t1, 1431654400
+addi t1, t1, 1365
+or t2, t0, t1
+addi t3, zero, 4095
+bne t2, t3, 44
+addi t0, zero, 0
+addi t1, zero, 0
+or t2, t0, t1
+bne t2, zero, 28
+auipc t0, 1044480
+addi t0, t0, 1916
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1896
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 0
+ori t1, t0, 2032
+addi t2, zero, 2032
+bne t1, t2, 48
+lui t0, -1431699456
+ori t1, t0, 2047
+lui t2, -1431699456
+addi t2, t2, 2047
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 1832
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1812
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 4095
+addi t1, zero, 0
+slt t2, t0, t1
+addi t3, zero, 1
+bne t2, t3, 64
+addi t0, zero, 123
+addi t1, zero, 123
+slt t2, t0, t1
+bne t2, zero, 48
+lui t0, -2147483648
+addi t0, t0, 4095
+addi t1, zero, 4095
+slt t2, t0, t1
+bne t2, zero, 28
+auipc t0, 1044480
+addi t0, t0, 1728
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1708
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 4095
+slti t1, t0, 0
+addi t2, zero, 1
+bne t1, t2, 76
+addi t0, zero, 5
+slti t1, t0, 10
+addi t2, zero, 1
+bne t1, t2, 60
+addi t0, zero, 5
+slti t1, t0, 5
+addi t2, zero, 0
+bne t1, t2, 44
+addi t0, zero, 10
+slti t1, t0, 5
+addi t2, zero, 0
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 1616
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1596
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+addi t0, zero, 0
+sltiu t1, t0, 1
+addi t2, zero, 1
+bne t1, t2, 40
+addi t0, zero, 4095
+sltiu t1, t0, 4095
+bne t1, zero, 28
+auipc t0, 1044480
+addi t0, t0, 1544
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1524
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 4095
+addi t1, zero, 0
+sltu t2, t0, t1
+bne t2, zero, 48
+addi t0, zero, 0
+addi t1, zero, 1
+sltu t2, t0, t1
+addi t3, zero, 1
+bne t2, t3, 28
+auipc t0, 1044480
+addi t0, t0, 1460
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1440
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, -65536
+lui t1, 65536
+addi t1, t1, 4095
+xor t2, t0, t1
+addi t3, zero, 4095
+bne t2, t3, 44
+lui t0, -1431654400
+addi t0, t0, 2730
+xor t2, t0, t0
+bne t2, zero, 28
+auipc t0, 1044480
+addi t0, t0, 1372
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1352
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, 45056
+addi t0, t0, 2730
+xori t1, t0, 1365
+lui t2, 45056
+addi t2, t2, 4095
+bne t1, t2, 44
+addi t0, zero, 4
+xori t1, t0, 564
+addi t2, zero, 560
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 1284
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1264
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 1
+addi t1, zero, 3
+sll t2, t0, t1
+addi t3, zero, 8
+bne t2, t3, 48
+addi t0, zero, 1
+addi t1, zero, 31
+sll t2, t0, t1
+lui t3, -2147483648
+bne t2, t3, 28
+auipc t0, 1044480
+addi t0, t0, 1196
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1176
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 1
+slli t1, t0, 4
+addi t2, zero, 16
+bne t1, t2, 44
+addi t0, zero, 1
+slli t1, t0, 31
+lui t2, -2147483648
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 1116
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1096
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, -2147483648
+addi t1, zero, 31
+srl t2, t0, t1
+addi t3, zero, 1
+bne t2, t3, 52
+addi t0, zero, 4095
+addi t1, zero, 4
+srl t2, t0, t1
+lui t3, 268435456
+addi t3, t3, 4095
+bne t2, t3, 28
+auipc t0, 1044480
+addi t0, t0, 1024
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 1004
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, -2147483648
+srli t1, t0, 31
+addi t2, zero, 1
+bne t1, t2, 48
+addi t0, zero, 4095
+srli t1, t0, 4
+lui t2, 268435456
+addi t2, t2, 4095
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 940
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 920
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 4095
+addi t1, zero, 31
+sra t2, t0, t1
+addi t3, zero, 4095
+bne t2, t3, 68
+lui t0, -2147483648
+addi t1, zero, 31
+sra t2, t0, t1
+addi t3, zero, 4095
+bne t2, t3, 48
+lui t0, 16777216
+addi t1, zero, 4
+sra t2, t0, t1
+lui t3, 1048576
+bne t2, t3, 28
+auipc t0, 1044480
+addi t0, t0, 832
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 812
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 4095
+srai t1, t0, 31
+addi t2, zero, 4095
+bne t1, t2, 44
+lui t0, -2147483648
+srai t1, t0, 31
+addi t2, zero, 4095
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 752
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 732
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, 305418240
+lui t1, 305418240
+bne t0, t1, 28
+auipc t0, 1044480
+addi t0, t0, 692
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 672
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 0
+addi t0, t0, 0
+addi zero, zero, 0
+addi zero, zero, 0
+auipc t1, 0
+addi t1, t1, 4080
+bne t0, t1, 28
+auipc t0, 1044480
+addi t0, t0, 616
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 596
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+lui t0, 305418240
+addi t0, t0, 1672
+auipc t1, 1044480
+addi t1, t1, 568
+sw t0, 0(t1)
+lw t2, 0(t1)
+lui t3, 305418240
+addi t3, t3, 1672
+bne t2, t3, 28
+auipc t0, 1044480
+addi t0, t0, 532
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 512
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi s0, ra, 0
+jal ra, 16
+auipc t0, 0
+bne ra, t0, 16
+jal zero, 40
+addi t1, zero, 4
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 460
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+addi ra, s0, 0
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 428
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+addi ra, s0, 0
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 408
+lb t1, 2(t0)
+addi t2, zero, 52
+bne t1, t2, 40
+lb t1, 0(t0)
+addi t2, zero, 3976
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 368
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 348
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 328
+lh t1, 4(t0)
+lui t2, -20480
+addi t2, t2, 3021
+bne t1, t2, 44
+lh t1, 6(t0)
+lui t2, 4096
+addi t2, t2, 564
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 280
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 260
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 240
+lw t1, 8(t0)
+lui t2, 1432776704
+addi t2, t2, 1928
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 208
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 188
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 168
+addi t1, zero, 127
+sb t1, 12(t0)
+lb t2, 12(t0)
+addi t3, zero, 127
+bne t2, t3, 88
+addi t1, zero, 127
+sb t1, 13(t0)
+lb t2, 13(t0)
+addi t3, zero, 127
+bne t2, t3, 68
+addi t1, zero, 127
+sb t1, 14(t0)
+lb t2, 14(t0)
+addi t3, zero, 127
+bne t2, t3, 48
+addi t1, zero, 127
+sb t1, 15(t0)
+lb t2, 15(t0)
+addi t3, zero, 127
+bne t2, t3, 28
+auipc t0, 1044480
+addi t0, t0, 72
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 52
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 32
+lui t1, 32768
+addi t1, t1, 1
+sh t1, 16(t0)
+lh t2, 16(t0)
+lui t3, -32768
+addi t3, t3, 1
+bne t2, t3, 52
+addi t1, zero, 257
+sh t1, 18(t0)
+lw t2, 16(t0)
+lui t3, 16875520
+addi t3, t3, 1
+bne t2, t3, 28
+auipc t0, 1044480
+addi t0, t0, 4060
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 4040
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 4020
+lbu t1, 20(t0)
+addi t2, zero, 255
+bne t1, t2, 40
+lbu t1, 21(t0)
+addi t2, zero, 0
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 3980
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3960
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3940
+lhu t1, 20(t0)
+addi t2, zero, 255
+bne t1, t2, 44
+lhu t1, 22(t0)
+lui t2, 65536
+addi t2, t2, 3840
+bne t1, t2, 28
+auipc t0, 1044480
+addi t0, t0, 3896
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3876
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 5
+addi t1, zero, 5
+beq t0, t1, 8
+jal zero, 40
+addi t0, zero, 1
+addi t1, zero, 2
+beq t0, t1, 28
+auipc t0, 1044480
+addi t0, t0, 3820
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3800
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 1
+addi t1, zero, 2
+bne t0, t1, 8
+jal zero, 40
+addi t0, zero, 5
+addi t1, zero, 5
+bne t0, t1, 28
+auipc t0, 1044480
+addi t0, t0, 3744
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3724
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 4095
+addi t1, zero, 0
+blt t0, t1, 8
+jal zero, 40
+addi t0, zero, 5
+addi t1, zero, 5
+blt t0, t1, 28
+auipc t0, 1044480
+addi t0, t0, 3668
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3648
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 1
+addi t1, zero, 4095
+bge t0, t1, 8
+jal zero, 40
+addi t0, zero, 1
+addi t1, zero, 5
+bge t0, t1, 28
+auipc t0, 1044480
+addi t0, t0, 3592
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3572
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 4095
+addi t1, zero, 5
+bltu t1, t0, 8
+jal zero, 40
+addi t0, zero, 5
+addi t1, zero, 5
+bltu t0, t1, 28
+auipc t0, 1044480
+addi t0, t0, 3516
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3496
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi t0, zero, 5
+addi t1, zero, 4095
+bgeu t1, t0, 24
+jal zero, 44
+addi t0, zero, 5
+addi t1, zero, 5
+bgeu t0, t1, 8
+jal zero, 28
+auipc t0, 1044480
+addi t0, t0, 3436
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3416
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+jalr zero, 0(ra)
+addi s0, ra, 0
+auipc t0, 0
+addi t0, t0, 32
+jalr ra, 0(t0)
+auipc t3, 0
+addi t1, zero, 8
+bne t2, t1, 20
+bne ra, t3, 16
+jal zero, 40
+addi t2, zero, 8
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3348
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+addi ra, s0, 0
+jalr zero, 0(ra)
+auipc t0, 1044480
+addi t0, t0, 3316
+lw t1, 0(t0)
+addi t1, t1, 1
+sw t1, 0(t0)
+addi ra, s0, 0
+jalr zero, 0(ra)
+blt a0, zero, 96
+blt a1, zero, 108
+addi a2, a1, 0
+addi a1, a0, 0
+addi a0, zero, 4095
+beq a2, zero, 56
+addi a3, zero, 1
+bgeu a2, a1, 20
+bge zero, a2, 16
+slli a2, a2, 1
+slli a3, a3, 1
+bltu a2, a1, 4084
+addi a0, zero, 0
+bltu a1, a2, 12
+sub a1, a1, a2
+or a0, a0, a3
+srli a3, a3, 1
+srli a2, a2, 1
+bne a3, zero, 4076
+jalr zero, 0(ra)
+addi t0, ra, 0
+jal ra, 4020
+addi a0, a1, 0
+jalr zero, 0(t0)
+sub a0, zero, a0
+blt zero, a1, 16
+sub a1, zero, a1
+jal zero, 3996
+sub a1, zero, a1
+addi t0, ra, 0
+jal ra, 3984
+sub a0, zero, a0
+jalr zero, 0(t0)
+addi t0, ra, 0
+blt a1, zero, 20
+blt a0, zero, 24
+jal ra, 3960
+addi a0, a1, 0
+jalr zero, 0(t0)
+sub a1, zero, a1
+bge a0, zero, 4080
+sub a0, zero, a0
+jal ra, 3936
+sub a0, zero, a1
+jalr zero, 0(t0)
