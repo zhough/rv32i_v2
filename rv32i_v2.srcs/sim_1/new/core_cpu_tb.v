@@ -24,7 +24,7 @@ wire [31:0] ram_din, ram_dout;
 wire [31:0] irom_addr, irom_data, perip_addr, perip_wdata, perip_rdata;
 wire [3:0] perip_mask;
 wire perip_en;
-wire [31:0] rs3, rs17, rs10, rs2;
+wire [31:0] rs3, rs17, rs10, rs2, rs6;
 
 assign pc_irom = irom_addr[14:2];
 assign irom_data = dout_irom;
@@ -61,7 +61,8 @@ core_cpu u_CPU(
     .rs3 (rs3),
     .rs17 (rs17),
     .rs10 (rs10),
-    .rs2 (rs2)
+    .rs2 (rs2),
+    .rs6 (rs6)
 );
 
 reg [31:0] count;

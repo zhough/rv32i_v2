@@ -12,7 +12,8 @@ module core_cpu(
     output [31:0] rs3,
     output [31:0] rs17,
     output [31:0] rs10,
-    output [31:0] rs2
+    output [31:0] rs2,
+    output [31:0] rs6
     );
 wire clk;
 wire rst_n;
@@ -122,6 +123,7 @@ assign rs3 = rs[3];
 assign rs17 = rs[17];
 assign rs10 = rs[10];
 assign rs2 = rs[2];
+assign rs6 = rs[6];
 assign irom_addr = irom_addr_if;
 assign dout_irom = irom_data;
 //具体情况再改
